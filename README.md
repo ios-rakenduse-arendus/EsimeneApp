@@ -28,7 +28,7 @@ Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
 
 ### 5.TUND:
 
-[4.4. Rakendus: LÕPP](https://github.com/ios-rakenduse-arendus/4.4.Rakendus-lõpp)
+[4.4. Rakendus: LÕPP](https://github.com/ios-rakenduse-arendus/4.4.Rakendus-viimistlemine)
 
 
 
