@@ -4,21 +4,31 @@ Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
 
 **Lingid materjali:**
 
+### 1. TUND:
+
 [1. iOS tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/1.-iOS-tutvustus)
 
 [2. Xcode tutvustus & paigaldamine](https://github.com/ios-rakenduse-arendus/2018/wiki/2.-Xcode-tutvustus-&-paigaldamine)
 
 [3. Swift ja SpriteKit tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/3.-Swift-ja-SpriteKit-tutvustus)
 
+### 2. TUND:
+
 [4. Rakenduse tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/4.-Rakenduse-tutvustus)
 
 [4.1. Rakendus: Projekti algus & tausta loomine](https://github.com/ios-rakenduse-arendus/4.1.Rakendus-taust)
 
-[4.2. Rakendus: ]()
+### 3.TUND:
 
-[4.3. Rakendus: ]()
+[4.2. Rakendus: Elementide lisamine](https://github.com/ios-rakenduse-arendus/4.2.Rakendus-elemendid)
 
-[4.4. Rakendus: ]()
+### 4.TUND:
+
+[4.3. Rakendus: START]()
+
+### 5.TUND:
+
+[4.4. Rakendus: LÕPP]()
 
 
 
@@ -42,4 +52,3 @@ Antud iOS rakenduse arenduse õppematrjal on loodud Tallinna Ülikooli Informaat
 ### Õppematerjalile saab ligi GitHub keskkonnas.
 
 # Innukat õppimist!
-
