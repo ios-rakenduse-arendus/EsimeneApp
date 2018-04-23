@@ -24,11 +24,11 @@ Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
 
 ### 4.TUND:
 
-[4.3. Rakendus: START]()
+[4.3. Rakendus: START](https://github.com/ios-rakenduse-arendus/4.3.Rakendus-start)
 
 ### 5.TUND:
 
-[4.4. Rakendus: LÕPP]()
+[4.4. Rakendus: LÕPP](https://github.com/ios-rakenduse-arendus/4.4.Rakendus-lõpp)
 
 
 
