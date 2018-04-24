@@ -1,8 +1,10 @@
 # Õppematerjalist
 
-Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
+Antud iOS rakenduse arenduse õppematrjal on loodud Tallinna Ülikooli Informaatika eriala seminaritöö ja bakalaureusetöö raames.
 
-**Lingid materjali:**
+Koostas: Marianne Kristiina Orusalu, mkoinc@tlu.ee
+
+## Lingid materjali:
 
 ### 1. TUND:
 
@@ -30,10 +32,11 @@ Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
 
 [4.4. Rakendus: Viimistlemine](https://github.com/ios-rakenduse-arendus/4.4.Rakendus-viimistlemine)
 
+[4.5. Rakendus: Äpi paigaldus](https://github.com/ios-rakenduse-arendus/EsimeneApp/wiki/4.5.-Rakendus:-%C3%84pi-paigaldus)
+___
 
-
-
-Antud iOS rakenduse arenduse õppematrjal on loodud Tallinna Ülikooli Informaatika eriala seminaritöö ja bakalaureusetöö raames.
+* Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsuust kuulata ja vaadata õppmaterjali sisse lingitud videotest. 
+* Igas praktilises osas on vaja täita mingi ülesanne, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas koodi on mõistetud.
 
 **Koolitusvajadus:** Vähene või üldse puudulik eestikeelsete programmeerimisalaste õppematerjalide hulk iOS platvormile.
 
@@ -47,6 +50,8 @@ Antud iOS rakenduse arenduse õppematrjal on loodud Tallinna Ülikooli Informaat
 **Sihtgrupp:** Õppematerjali sihtgrupiks on infotehnoloogia suunaga tudengid, kuid ka kooliõpilased ning teised programmeerimishuvilised inimesed.
 
 **Tehnilise platvorm:** Töö toimub Mac arvutites Xcode programmis, kasutades Swift keelt ja SpriteKit'i.
+
+**Õppeplatvormid:** **Github** veebilehestik ning videoid edastatakse läbi **YouTube**'i
 
 
 ### Õppematerjalile saab ligi GitHub keskkonnas.
