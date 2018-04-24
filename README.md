@@ -24,7 +24,7 @@ Koostas: **Marianne Kristiina Orusalu**, mkoinc@tlu.ee
 
 ### 4.TUND:
 
-[4.3. Rakendus: START](https://github.com/ios-rakenduse-arendus/4.3.Rakendus-start)
+[4.3. Rakendus: START e. liikumise lisamine](https://github.com/ios-rakenduse-arendus/4.3.Rakendus-start)
 
 ### 5.TUND:
 
