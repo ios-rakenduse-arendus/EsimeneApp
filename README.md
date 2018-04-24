@@ -35,6 +35,7 @@ Koostas: Marianne Kristiina Orusalu, mkoinc@tlu.ee
 [4.5. Rakendus: Äpi paigaldus](https://github.com/ios-rakenduse-arendus/EsimeneApp/wiki/4.5.-Rakendus:-%C3%84pi-paigaldus)
 ___
 
+
 * Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsuust kuulata ja vaadata õppmaterjali sisse lingitud videotest. 
 * Igas praktilises osas on vaja täita iseseisvalt mingi ülesanne ilma sealjuures oleva video õpetuseta, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas eelnevalt kirjutatud koodi on mõistetud.
 
@@ -52,6 +53,7 @@ ___
 **Tehnilise platvorm:** Töö toimub Mac arvutites Xcode programmis, kasutades Swift keelt ja SpriteKit'i.
 
 **Õppeplatvormid:** **Github** veebilehestik ning videoid edastatakse läbi **YouTube**'i
+[Siit lingilt on KÕIK VIDEOD saadaval õppematerjalist eraldi](https://www.youtube.com/playlist?list=PLX0stWuI8VV0FA5lwT35bnLwqpefZmkqP)
 
 
 ### Õppematerjalile saab ligi GitHub keskkonnas.
