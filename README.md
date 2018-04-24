@@ -52,10 +52,10 @@ ___
 
 **Tehnilise platvorm:** Töö toimub Mac arvutites Xcode programmis, kasutades Swift keelt ja SpriteKit'i.
 
-**Õppeplatvormid:** **Github** veebilehestik ning videoid edastatakse läbi **YouTube**'i
+### Õppematerjalile saab ligi GitHub keskkonnas ning YouTube'is.
+
 [Siit lingilt on KÕIK VIDEOD saadaval õppematerjalist eraldi](https://www.youtube.com/playlist?list=PLX0stWuI8VV0FA5lwT35bnLwqpefZmkqP)
 
-
-### Õppematerjalile saab ligi GitHub keskkonnas.
+___
 
 # Innukat õppimist!
