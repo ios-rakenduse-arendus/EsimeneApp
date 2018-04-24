@@ -36,7 +36,7 @@ Koostas: Marianne Kristiina Orusalu, mkoinc@tlu.ee
 ___
 
 * Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsuust kuulata ja vaadata õppmaterjali sisse lingitud videotest. 
-* Igas praktilises osas on vaja täita mingi ülesanne, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas koodi on mõistetud.
+* Igas praktilises osas on vaja täita iseseisvalt mingi ülesanne ilma sealjuures oleva video õpetuseta, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas eelnevalt kirjutatud koodi on mõistetud.
 
 **Koolitusvajadus:** Vähene või üldse puudulik eestikeelsete programmeerimisalaste õppematerjalide hulk iOS platvormile.
 
