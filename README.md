@@ -58,4 +58,6 @@ ___
 
 ### Õppematerjalile saab ligi GitHub keskkonnas.
 
+![Eksmati](https://github.com/ios-rakenduse-arendus/4.1.Rakendus-taust/blob/master/Assets/AppIcon/iPhoneApp60pt%403x.png)
+
 # Innukat õppimist!
