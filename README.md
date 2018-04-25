@@ -1,46 +1,41 @@
 # Õppematerjalist
 
-Antud iOS rakenduse arenduse õppematrjal on loodud Tallinna Ülikooli Informaatika eriala seminaritöö ja bakalaureusetöö raames.
+Antud iOS rakenduse arenduse õppematerjal on loodud Tallinna Ülikooli informaatika eriala seminaritöö ja bakalaureusetöö raames. Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsust kuulata ja vaadata õppematerjali sisse lingitud videotest. Igas praktilises osas on vaja täita iseseisvalt mingi ülesanne ilma sealjuures oleva videoõpetuseta, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas eelnevalt kirjutatud koodi on mõistetud.
 
 Koostas: Marianne Kristiina Orusalu, mkoinc@tlu.ee
 
-# Terviklik äpp on kättesaadav [siit](https://github.com/ios-rakenduse-arendus/EsimeneApp) EKSMATIproject kaustast. Seda võib kasutada hilisemaks kontrolliks.
+Terviklik äpp on kättesaadav [EKSMATIproject](https://github.com/ios-rakenduse-arendus/EsimeneApp) kaustast. Seda võib kasutada hilisemaks kontrolliks.
 
-## Lingid materjali:
+## Sisukord
 
-### 1. TUND:
+### 1. tund:
 
 [1. iOS tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/1.-iOS-tutvustus)
 
-[2. Xcode tutvustus & paigaldamine](https://github.com/ios-rakenduse-arendus/2018/wiki/2.-Xcode-tutvustus-&-paigaldamine)
+[2. Xcode tutvustus ja paigaldamine](https://github.com/ios-rakenduse-arendus/2018/wiki/2.-Xcode-tutvustus-ja-paigaldamine)
 
 [3. Swift ja SpriteKit tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/3.-Swift-ja-SpriteKit-tutvustus)
 
-### 2. TUND:
+### 2. tund:
 
 [4. Rakenduse tutvustus](https://github.com/ios-rakenduse-arendus/2018/wiki/4.-Rakenduse-tutvustus)
 
-[4.1. Rakendus: Projekti algus & tausta loomine](https://github.com/ios-rakenduse-arendus/4.1.Rakendus-taust)
+[4.1. Rakendus: Projekti algus ja tausta loomine](https://github.com/ios-rakenduse-arendus/4.1.Rakendus-taust)
 
-### 3.TUND:
+### 3. tund:
 
 [4.2. Rakendus: Elementide lisamine](https://github.com/ios-rakenduse-arendus/4.2.Rakendus-elemendid)
 
-### 4.TUND:
+### 4. tund:
 
 [4.3. Rakendus: START e. liikumise lisamine](https://github.com/ios-rakenduse-arendus/4.3.Rakendus-start)
 
-### 5.TUND:
+### 5. tund:
 
 [4.4. Rakendus: Viimistlemine](https://github.com/ios-rakenduse-arendus/4.4.Rakendus-viimistlemine)
 
 [4.5. Rakendus: Äpi paigaldus](https://github.com/ios-rakenduse-arendus/EsimeneApp/wiki/4.5.-Rakendus:-%C3%84pi-paigaldus)
 ___
-
-* Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsuust kuulata ja vaadata õppmaterjali sisse lingitud videotest. 
-* Igas praktilises osas on vaja täita iseseisvalt mingi ülesanne ilma sealjuures oleva video õpetuseta, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas eelnevalt kirjutatud koodi on mõistetud.
-
-**Koolitusvajadus:** Vähene või üldse puudulik eestikeelsete programmeerimisalaste õppematerjalide hulk iOS platvormile.
 
 **Õpieesmärgid:** Õppija omandab algteadmised Xcode integreeritud arenduskeskkonna käsitlemise ja Swift keele kohta ning algse oskuse mõista ning kasutada neid praktikas, mille lõpptulemusena valmib mängu äpp.
 
@@ -53,11 +48,8 @@ ___
 
 **Tehnilise platvorm:** Töö toimub Mac arvutites Xcode programmis, kasutades Swift keelt ja SpriteKit'i.
 
-**Õppeplatvormid:** **Github** veebilehestik ning videoid edastatakse läbi **YouTube**'i
-
-
-### Õppematerjalile saab ligi GitHub keskkonnas.
 
 ![Eksmati](https://github.com/ios-rakenduse-arendus/4.1.Rakendus-taust/blob/master/Assets/AppIcon/iPhoneApp60pt%403x.png)
+
 
 # Innukat õppimist!
