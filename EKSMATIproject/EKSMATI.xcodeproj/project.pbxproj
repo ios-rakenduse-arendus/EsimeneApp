@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C290DA208B59320077425F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C290D9208B59320077425F /* AppDelegate.swift */; };
+		35C290DC208B59320077425F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35C290DB208B59320077425F /* GameScene.sks */; };
+		35C290DE208B59320077425F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35C290DD208B59320077425F /* Actions.sks */; };
+		35C290E0208B59320077425F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C290DF208B59320077425F /* GameScene.swift */; };
+		35C290E2208B59320077425F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C290E1208B59320077425F /* GameViewController.swift */; };
+		35C290E5208B59320077425F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C290E3208B59320077425F /* Main.storyboard */; };
+		35C290E7208B59320077425F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C290E6208B59320077425F /* Assets.xcassets */; };
+		35C290EA208B59320077425F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C290E8208B59320077425F /* LaunchScreen.storyboard */; };
+		35C290F5208B59330077425F /* EKSMATITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C290F4208B59330077425F /* EKSMATITests.swift */; };
+		35C29100208B59330077425F /* EKSMATIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C290FF208B59330077425F /* EKSMATIUITests.swift */; };
+		35C29110208B874A0077425F /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2910F208B874A0077425F /* GameElements.swift */; };
+		35C29118209034090077425F /* EAPSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35C29117209034090077425F /* EAPSound.mp3 */; };
+		35C2911A209052A50077425F /* wolfSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35C29119209052A50077425F /* wolfSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C290F1208B59330077425F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C290CE208B59320077425F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C290D5208B59320077425F;
+			remoteInfo = EKSMATI;
+		};
+		35C290FC208B59330077425F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C290CE208B59320077425F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C290D5208B59320077425F;
+			remoteInfo = EKSMATI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35C290D6208B59320077425F /* EKSMATI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKSMATI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C290D9208B59320077425F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C290DB208B59320077425F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		35C290DD208B59320077425F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		35C290DF208B59320077425F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		35C290E1208B59320077425F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		35C290E4208B59320077425F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C290E6208B59320077425F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C290E9208B59320077425F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C290EB208B59320077425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C290F0208B59330077425F /* EKSMATITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKSMATITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C290F4208B59330077425F /* EKSMATITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKSMATITests.swift; sourceTree = "<group>"; };
+		35C290F6208B59330077425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C290FB208B59330077425F /* EKSMATIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKSMATIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C290FF208B59330077425F /* EKSMATIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKSMATIUITests.swift; sourceTree = "<group>"; };
+		35C29101208B59330077425F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C2910F208B874A0077425F /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		35C29117209034090077425F /* EAPSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EAPSound.mp3; sourceTree = "<group>"; };
+		35C29119209052A50077425F /* wolfSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolfSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C290D3208B59320077425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290ED208B59330077425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290F8208B59330077425F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C290CD208B59320077425F = {
+			isa = PBXGroup;
+			children = (
+				35C290D8208B59320077425F /* EKSMATI */,
+				35C290F3208B59330077425F /* EKSMATITests */,
+				35C290FE208B59330077425F /* EKSMATIUITests */,
+				35C290D7208B59320077425F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C290D7208B59320077425F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C290D6208B59320077425F /* EKSMATI.app */,
+				35C290F0208B59330077425F /* EKSMATITests.xctest */,
+				35C290FB208B59330077425F /* EKSMATIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C290D8208B59320077425F /* EKSMATI */ = {
+			isa = PBXGroup;
+			children = (
+				35C29117209034090077425F /* EAPSound.mp3 */,
+				35C29119209052A50077425F /* wolfSound.mp3 */,
+				35C290D9208B59320077425F /* AppDelegate.swift */,
+				35C290DB208B59320077425F /* GameScene.sks */,
+				35C290DD208B59320077425F /* Actions.sks */,
+				35C290DF208B59320077425F /* GameScene.swift */,
+				35C2910F208B874A0077425F /* GameElements.swift */,
+				35C290E1208B59320077425F /* GameViewController.swift */,
+				35C290E3208B59320077425F /* Main.storyboard */,
+				35C290E6208B59320077425F /* Assets.xcassets */,
+				35C290E8208B59320077425F /* LaunchScreen.storyboard */,
+				35C290EB208B59320077425F /* Info.plist */,
+			);
+			path = EKSMATI;
+			sourceTree = "<group>";
+		};
+		35C290F3208B59330077425F /* EKSMATITests */ = {
+			isa = PBXGroup;
+			children = (
+				35C290F4208B59330077425F /* EKSMATITests.swift */,
+				35C290F6208B59330077425F /* Info.plist */,
+			);
+			path = EKSMATITests;
+			sourceTree = "<group>";
+		};
+		35C290FE208B59330077425F /* EKSMATIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35C290FF208B59330077425F /* EKSMATIUITests.swift */,
+				35C29101208B59330077425F /* Info.plist */,
+			);
+			path = EKSMATIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C290D5208B59320077425F /* EKSMATI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C29104208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATI" */;
+			buildPhases = (
+				35C290D2208B59320077425F /* Sources */,
+				35C290D3208B59320077425F /* Frameworks */,
+				35C290D4208B59320077425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKSMATI;
+			productName = EKSMATI;
+			productReference = 35C290D6208B59320077425F /* EKSMATI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35C290EF208B59330077425F /* EKSMATITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C29107208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATITests" */;
+			buildPhases = (
+				35C290EC208B59330077425F /* Sources */,
+				35C290ED208B59330077425F /* Frameworks */,
+				35C290EE208B59330077425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C290F2208B59330077425F /* PBXTargetDependency */,
+			);
+			name = EKSMATITests;
+			productName = EKSMATITests;
+			productReference = 35C290F0208B59330077425F /* EKSMATITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35C290FA208B59330077425F /* EKSMATIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C2910A208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATIUITests" */;
+			buildPhases = (
+				35C290F7208B59330077425F /* Sources */,
+				35C290F8208B59330077425F /* Frameworks */,
+				35C290F9208B59330077425F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C290FD208B59330077425F /* PBXTargetDependency */,
+			);
+			name = EKSMATIUITests;
+			productName = EKSMATIUITests;
+			productReference = 35C290FB208B59330077425F /* EKSMATIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C290CE208B59320077425F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Marianne Orusalu";
+				TargetAttributes = {
+					35C290D5208B59320077425F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					35C290EF208B59330077425F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 35C290D5208B59320077425F;
+					};
+					35C290FA208B59330077425F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 35C290D5208B59320077425F;
+					};
+				};
+			};
+			buildConfigurationList = 35C290D1208B59320077425F /* Build configuration list for PBXProject "EKSMATI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C290CD208B59320077425F;
+			productRefGroup = 35C290D7208B59320077425F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C290D5208B59320077425F /* EKSMATI */,
+				35C290EF208B59330077425F /* EKSMATITests */,
+				35C290FA208B59330077425F /* EKSMATIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C290D4208B59320077425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C290E5208B59320077425F /* Main.storyboard in Resources */,
+				35C29118209034090077425F /* EAPSound.mp3 in Resources */,
+				35C290DC208B59320077425F /* GameScene.sks in Resources */,
+				35C290E7208B59320077425F /* Assets.xcassets in Resources */,
+				35C290EA208B59320077425F /* LaunchScreen.storyboard in Resources */,
+				35C2911A209052A50077425F /* wolfSound.mp3 in Resources */,
+				35C290DE208B59320077425F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290EE208B59330077425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290F9208B59330077425F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C290D2208B59320077425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C29110208B874A0077425F /* GameElements.swift in Sources */,
+				35C290E0208B59320077425F /* GameScene.swift in Sources */,
+				35C290E2208B59320077425F /* GameViewController.swift in Sources */,
+				35C290DA208B59320077425F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290EC208B59330077425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C290F5208B59330077425F /* EKSMATITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C290F7208B59330077425F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C29100208B59330077425F /* EKSMATIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C290F2208B59330077425F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C290D5208B59320077425F /* EKSMATI */;
+			targetProxy = 35C290F1208B59330077425F /* PBXContainerItemProxy */;
+		};
+		35C290FD208B59330077425F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C290D5208B59320077425F /* EKSMATI */;
+			targetProxy = 35C290FC208B59330077425F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35C290E3208B59320077425F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C290E4208B59320077425F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C290E8208B59320077425F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C290E9208B59320077425F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C29102208B59330077425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35C29103208B59330077425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C29105208B59330077425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C29106208B59330077425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35C29108208B59330077425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKSMATI.app/EKSMATI";
+			};
+			name = Debug;
+		};
+		35C29109208B59330077425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EKSMATI.app/EKSMATI";
+			};
+			name = Release;
+		};
+		35C2910B208B59330077425F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EKSMATI;
+			};
+			name = Debug;
+		};
+		35C2910C208B59330077425F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKSMATIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MKO.EKSMATIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EKSMATI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C290D1208B59320077425F /* Build configuration list for PBXProject "EKSMATI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C29102208B59330077425F /* Debug */,
+				35C29103208B59330077425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C29104208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C29105208B59330077425F /* Debug */,
+				35C29106208B59330077425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C29107208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C29108208B59330077425F /* Debug */,
+				35C29109208B59330077425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C2910A208B59330077425F /* Build configuration list for PBXNativeTarget "EKSMATIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C2910B208B59330077425F /* Debug */,
+				35C2910C208B59330077425F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C290CE208B59320077425F /* Project object */;
+}
