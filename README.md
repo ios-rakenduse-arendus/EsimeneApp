@@ -40,7 +40,7 @@ ___
 **Õpieesmärgid:** Õppija omandab algteadmised Xcode integreeritud arenduskeskkonna käsitlemise ja Swift keele kohta ning algse oskuse mõista ning kasutada neid praktikas, mille lõpptulemusena valmib mängu äpp.
 
 **Õpiväljundid:**
-* oskab kasutada XCode arenduskeskkonda uue projekti loomiseks, koodi sisestamiseks(vajadusel parandamiseks/kohandamiseks) ja koodi käivitamiseks simulaatoris;
+* oskab kasutada Xcode arenduskeskkonda uue projekti loomiseks, koodi sisestamiseks(vajadusel parandamiseks/kohandamiseks) ja koodi käivitamiseks simulaatoris;
 * tunneb Swift keele süntaksit;
 * on võimeline koostama koodinäidete põhjal lihtsamaid iOS rakendusi Swift keeles.
 
