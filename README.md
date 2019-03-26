@@ -2,7 +2,7 @@
 
 Antud iOS rakenduse arenduse õppematerjal on loodud Tallinna Ülikooli informaatika eriala seminaritöö ja bakalaureusetöö raames. Õppematerjal on ülesse ehitatud nii, et kui koheselt kirjalikus pildis koodi ei mõista siis on võimalik iga rea funktsionaalsust kuulata ja vaadata õppematerjali sisse lingitud videotest. Igas praktilises osas on vaja täita iseseisvalt mingi ülesanne ilma sealjuures oleva videoõpetuseta, et lisada sellega rakendusele funktsionaalsusi ning kontrollida, kas eelnevalt kirjutatud koodi on mõistetud.
 
-Koostas: Marianne Kristiina Orusalu, mkoinc@tlu.ee
+Koostas: Marianne Kristiina Orusalu, marianne.orusalu@gmail.com
 
 Terviklik äpp on kättesaadav [EKSMATIproject](https://github.com/ios-rakenduse-arendus/EsimeneApp) kaustast. Seda võib kasutada hilisemaks kontrolliks.
 
